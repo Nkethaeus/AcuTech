@@ -52,7 +52,7 @@ Finally, open the `acs-ccnrf.ipynb` notebook, verify that the file paths are cor
 
 ### Note
 
-The app requires the Anvil client to be running for proper functionality. To use the app, create an Anvil account and name the file 'upload'. Then, copy the client code from `anvil/client_code.py` and ensure it is executed after pasting. 
+The app requires the Anvil client to be running for proper functionality. To use the app, [create an Anvil account](https://anvil.works/sign-up) and name the file 'upload'. Then, copy the client code from `anvil/client_code.py` and ensure it is executed after pasting. 
 
 You will also need to replace the Anvil server uplink key in the 'Anvil Server Connection' cell in `acs-ccnrf.ipynb`. To obtain a server uplink key, click the Uplink button on Anvil and copy the provided server uplink key.
 
