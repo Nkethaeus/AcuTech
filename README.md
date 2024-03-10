@@ -47,4 +47,4 @@ We would like to thank Ms. Thonie Fernandez for her guidance and support through
 
 ---
 
-*AcuTech - Redefining respiratory health monitoring through cutting-edge technology.*
+*AcuTech was developed to fulfill the requirements for the degree of Bachelor of Science in Computer Science, with specialization in Software Engineering at FEU Alabang. The project was completed and submitted during the 1st semester of A.Y. 2023-2024.*
