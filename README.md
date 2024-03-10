@@ -28,6 +28,13 @@ After retraining and retesting the two models, significant improvements were obs
 
 In comparison, the SVM model continued to demonstrate superior performance, achieving a validation accuracy of 87.50% and an f-score of 0.86. These results indicate the effectiveness of both models in audio length classification, with SVM showing particularly strong performance.
 
+## Recommendations for Future Research:
+
+The researchers recommend preparing a dataset with around 2,000-10,000 samples, especially for classifying coughs. It seems that part of what made CNN-RF perform bad is the limited dataset the researchers had to use to train the model. Without enough data to learn from, the model was not able to effectively discern and distinguish the features and structure of the recordings that differentiate each acute cough from each other. 
+
+In addition to that, the researchers also recommend using datasets that have audio files recorded with little to no background noise. Background noise makes identifying variances much more difficult, as it adds irrelevant interferences and impedes the extraction of relevant features.
+
+
 ## Usage
 
 To utilize AcuTech, simply download the smartphone application from the designated platform and follow the on-screen instructions to record and analyze audio samples. The application will then employ advanced CNN algorithms to classify the presence of acute coughs, providing valuable insights into respiratory health in real-time.
