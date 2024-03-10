@@ -1,24 +1,22 @@
 # AcuTech
 
-AcuTech is an innovative smartphone-based audio classification system designed for the identification and classification of acute coughs using Convolutional Neural Networks (CNN). This groundbreaking system represents the culmination of our undergraduate thesis project, combining cutting-edge technology with the pursuit of scientific inquiry.
+AcuTech is an innovative smartphone-based audio classification system designed for the identification and classification of acute coughs using a Convolutional Neural Network (CNN) and a Random Forest Classifier.
 
 ## Overview
 
-AcuTech heralds a new era in healthcare technology by leveraging the power of CNNs to discern and classify acute coughs with unprecedented accuracy and efficiency. By harnessing the computational capabilities of smartphones, AcuTech empowers individuals and healthcare professionals alike to detect and monitor respiratory conditions with ease and precision.
+This project focuses on the development of a cough classifier designed to analyze users' cough recordings and predict their underlying ailment, with a focus on acute coughs such as bronchitis and pneumonia. The primary objective is to evaluate the performance of the Convolutional Neural Network combined with Random Forest (CNN-RF) model against the Support Vector Machine (SVM) model in identifying coughs accurately. Previous local studies have shown that SVM performed better in classifying various audios, but none have been found for audio classification on coughs.
 
-## Features
+## Process
 
-- **CNN-based Classification**: Harnesses the capabilities of Convolutional Neural Networks to analyze audio samples and classify them based on the presence of acute coughs.
-  
-- **Real-time Analysis**: Provides instantaneous results, enabling prompt detection and assessment of respiratory symptoms without the need for specialized equipment.
-  
-- **User-friendly Interface**: Delivers a seamless user experience through an intuitive smartphone application, ensuring accessibility and ease of use for individuals of all technical proficiencies.
-  
-- **Data Privacy**: Prioritizes the security and privacy of user data, adhering to stringent protocols and regulations to safeguard sensitive health information.
+1. **Data Collection:** Gathered cough recordings of varying lengths for classification.
+2. **Data Preprocessing:** Cleaned and normalized the audio data.
+3. **Mel-Spectrogram Conversion:** Converted the normalized audio data for training.
+4. **Model Training:** Trained the CNN-RF and SVM models on the preprocessed data.
+5. **Evaluation:** Evaluated the models using validation accuracy and f-score metrics.
+6. **Results Analysis:** Analyzed the results to determine the effectiveness of each model.
 
 ## Technologies Used
 
-- 
 - Python for data processing and general implementation
 - TensorFlow & Scikit-learn for building and implementing the CNN-RF and SVM models
 - Anvil for web interface and hosting the web server
@@ -26,7 +24,7 @@ AcuTech heralds a new era in healthcare technology by leveraging the power of CN
 
 ## Results
 
-After retraining and retesting the two models, significant improvements were observed in their performance. The CNN-RF model showed a notable increase in validation accuracy, rising from 38.05% to 63.23%. Additionally, the f-score for this model improved from 0.49 to 0.58. 
+After retraining and retesting the two models, significant improvements were observed in their performance. The CNN-RF model showed a notable increase in validation accuracy, rising from the initial 38.05% to 63.23%. Additionally, the f-score for this model improved from 0.49 to 0.58. 
 
 In comparison, the SVM model continued to demonstrate superior performance, achieving a validation accuracy of 87.50% and an f-score of 0.86. These results indicate the effectiveness of both models in audio length classification, with SVM showing particularly strong performance.
 
