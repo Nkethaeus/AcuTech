@@ -52,7 +52,7 @@ Finally, open the `acs-ccnrf.ipynb` notebook, verify that the file paths are cor
 
 ### Note
 
-Please note that the app requires the Anvil client to be running for proper functionality. To use the app, create an Anvil account and name the file 'upload'. Then, copy the client code from 'anvil/client_code.py' and ensure it is executed after pasting.
+Please note that the app requires the Anvil client to be running for proper functionality. To use the app, create an Anvil account and name the file 'upload'. Then, copy the client code from `anvil/client_code.py` and ensure it is executed after pasting.
 
 ## Group Members
 
