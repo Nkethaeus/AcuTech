@@ -58,10 +58,10 @@ You will also need to replace the Anvil server uplink key in the 'Anvil Server C
 
 ## Group Members
 
-- Jan Airick Indefonso (*Project Manager*)
-- Jerome Saulo (*Back-End Developer*)
-- Geronimo Dayos III (*UI/UX Designer*)
-- Francesca Linda Ramos (*Front-End Developer*)
+- [Jan Airick Indefonso](https://www.linkedin.com/in/jan-airick-indefonso-54a76426b/) (*Project Manager*)
+- [Jerome Saulo](https://www.linkedin.com/in/jerome-saulo/) (*Back-End Developer*)
+- [Geronimo Dayos III](https://www.linkedin.com/in/john-dayos-678a22253/) (*UI/UX Designer*)
+- [Francesca Linda Ramos](https://www.linkedin.com/in/france-ramos/) (*Front-End Developer*)
 
 ## Acknowledgements
 
