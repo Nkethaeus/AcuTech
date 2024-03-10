@@ -4,12 +4,12 @@
     --black: #333;
     --white: #fff;
     --light-color: #666;
-    --border: .2rem solid var(--black);
-    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 * {
-    font-family: 'Trebuchet MS Semibold', sans-serif;
+    font-family: "Trebuchet MS Semibold", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +24,7 @@
 }
 
 ::-webkit-scrollbar {
-    height: .5rem;
+    height: 0.5rem;
     width: 1rem;
 }
 
@@ -62,7 +62,7 @@ section {
 .heading h3 {
     font-size: 4rem;
     color: var(--black);
-    font-family: 'Trebuchet MS Semibold', sans-serif;
+    font-family: "Trebuchet MS Semibold", sans-serif;
 }
 
 .btn {
@@ -139,7 +139,7 @@ section {
 .home-bg .home .content h3 {
     font-size: 6rem;
     color: var(--black);
-    font-family: 'Trebuchet MS Semibold', sans-serif;
+    font-family: "Trebuchet MS Semibold", sans-serif;
 }
 
 .home-bg .home .content p {
@@ -170,7 +170,7 @@ section {
 .about .content h3 {
     font-size: 4.5rem;
     color: var(--black);
-    font-family: 'Trebuchet MS Semibold', sans-serif;
+    font-family: "Trebuchet MS Semibold", sans-serif;
     padding-bottom: 1rem;
 }
 
@@ -184,7 +184,7 @@ section {
     padding: 1rem 0;
     color: var(--light-color);
     font-size: 2.5rem;
-    font-family: 'Trebuchet MS Semibold', sans-serif;
+    font-family: "Trebuchet MS Semibold", sans-serif;
 }
 
 .recording .box-container {
@@ -206,7 +206,7 @@ section {
 
 .recording .content h3 {
     font-size: 4.5rem;
-    font-family: 'Trebuchet MS Semibold', sans-serif;
+    font-family: "Trebuchet MS Semibold", sans-serif;
 }
 
 .gallery .box-container {
@@ -269,19 +269,18 @@ section {
     color: var(--main-color);
 }
 
-
 /* media queries  */
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
     html {
         font-size: 55%;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     #menu-btn {
         display: inline-block;
-        transition: .2s linear;
+        transition: 0.2s linear;
     }
     #menu-btn.fa-times {
         transform: rotate(180deg);
@@ -295,7 +294,7 @@ section {
         border-top: var(--border);
         border-bottom: var(--border);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition: .2s linear;
+        transition: 0.2s linear;
     }
     .header .flex .navbar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -318,7 +317,7 @@ section {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
     html {
         font-size: 50%;
     }
