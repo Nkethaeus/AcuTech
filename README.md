@@ -34,10 +34,10 @@ To utilize AcuTech, simply download the smartphone application from the designat
 
 ## Group Members
 
-- Jan Airick Indefonso (Project Manager)
-- Jerome Saulo (Back-End Developer)
-- Geronimo Dayos III (UI/UX Designer)
-- Francesca Linda Ramos (Front-End Developer)
+- Jan Airick Indefonso (*Project Manager*)
+- Jerome Saulo (*Back-End Developer*)
+- Geronimo Dayos III (*UI/UX Designer*)
+- Francesca Linda Ramos (*Front-End Developer*)
 
 ## Acknowledgements
 
