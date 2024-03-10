@@ -10,7 +10,7 @@ This project focuses on the development of a cough classifier designed to analyz
 
 1. **Data Collection:** Gathered cough recordings of varying lengths for classification.
 2. **Data Preprocessing:** Cleaned and normalized the audio data.
-3. **Mel-Spectrogram Conversion:** Converted the normalized audio data for training.
+3. **Mel-Spectrogram Conversion:** Converted the normalized audio data to mel-spectrogram images for training.
 4. **Model Training:** Trained the CNN-RF and SVM models on the preprocessed data.
 5. **Evaluation:** Evaluated the models using validation accuracy and f-score metrics.
 6. **Results Analysis:** Analyzed the results to determine the effectiveness of each model.
