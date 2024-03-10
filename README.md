@@ -1,6 +1,6 @@
 # AcuTech
 
-AcuTech is an innovative smartphone-based audio classification system meticulously designed for the accurate identification and classification of acute coughs using Convolutional Neural Networks (CNN). This groundbreaking system represents the culmination of our undergraduate thesis project, combining cutting-edge technology with the pursuit of scientific inquiry.
+AcuTech is an innovative smartphone-based audio classification system designed for the identification and classification of acute coughs using Convolutional Neural Networks (CNN). This groundbreaking system represents the culmination of our undergraduate thesis project, combining cutting-edge technology with the pursuit of scientific inquiry.
 
 ## Overview
 
@@ -16,35 +16,34 @@ AcuTech heralds a new era in healthcare technology by leveraging the power of CN
   
 - **Data Privacy**: Prioritizes the security and privacy of user data, adhering to stringent protocols and regulations to safeguard sensitive health information.
 
+## Technologies Used
+
+- 
+- Python for data processing and general implementation
+- TensorFlow & Scikit-learn for building and implementing the CNN-RF and SVM models
+- Anvil for web interface and hosting the web server
+- HTML, CSS for frontend
+
+## Results
+
+After retraining and retesting the two models, significant improvements were observed in their performance. The CNN-RF model showed a notable increase in validation accuracy, rising from 38.05% to 63.23%. Additionally, the f-score for this model improved from 0.49 to 0.58. 
+
+In comparison, the SVM model continued to demonstrate superior performance, achieving a validation accuracy of 87.50% and an f-score of 0.86. These results indicate the effectiveness of both models in audio length classification, with SVM showing particularly strong performance.
+
 ## Usage
 
 To utilize AcuTech, simply download the smartphone application from the designated platform and follow the on-screen instructions to record and analyze audio samples. The application will then employ advanced CNN algorithms to classify the presence of acute coughs, providing valuable insights into respiratory health in real-time.
 
-## Installation
+## Group Members
 
-```bash
-git clone https://github.com/yourusername/acutech.git
-cd acutech
-# Follow instructions for setting up the smartphone application
-```
-
-## Contributing
-
-Contributions to AcuTech are welcomed and encouraged! Whether you're passionate about machine learning algorithms, mobile app development, or healthcare technology, your contributions can significantly enhance the functionality and impact of our system. Please refer to the [contribution guidelines](CONTRIBUTING.md) for detailed instructions on how to contribute effectively.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Jan Airick Indefonso (Project Manager)
+- Jerome Saulo (Back-End Developer)
+- Geronimo Dayos III (UI/UX Designer)
+- Francesca Linda Ramos (Front-End Developer)
 
 ## Acknowledgements
 
-AcuTech extends its sincere appreciation to the following individuals and organizations whose support and collaboration have been instrumental in the development of this system:
-
-- [List of contributors]
-
-## Contact
-
-For any inquiries, feedback, or collaboration opportunities, please feel free to reach out to us at [contact@example.com].
+We would like to thank Ms. Thonie Fernandez for her guidance and support throughout this project.
 
 ---
 
