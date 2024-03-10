@@ -28,16 +28,31 @@ After retraining and retesting the two models, significant improvements were obs
 
 In comparison, the SVM model continued to demonstrate superior performance, achieving a validation accuracy of 87.50% and an f-score of 0.86. These results indicate the effectiveness of both models in audio length classification, with SVM showing particularly strong performance.
 
-## Recommendations for Future Research:
+## Recommendations
 
 The researchers recommend preparing a dataset with around 2,000-10,000 samples, especially for classifying coughs. It seems that part of what made CNN-RF perform bad is the limited dataset the researchers had to use to train the model. Without enough data to learn from, the model was not able to effectively discern and distinguish the features and structure of the recordings that differentiate each acute cough from each other. 
 
 In addition to that, the researchers also recommend using datasets that have audio files recorded with little to no background noise. Background noise makes identifying variances much more difficult, as it adds irrelevant interferences and impedes the extraction of relevant features.
 
-
 ## Usage
 
-To utilize AcuTech, simply download the smartphone application from the designated platform and follow the on-screen instructions to record and analyze audio samples. The application will then employ advanced CNN algorithms to classify the presence of acute coughs, providing valuable insights into respiratory health in real-time.
+### For Users
+
+To try out AcuTech, download the APK from this repository and install it on your Android device. Follow the on-screen instructions to record your cough, and await the completion of the analysis. The app will then present the results as percentages, indicating the likelihood that your cough aligns with one of the various acute coughs covered in this project.
+
+### For Training
+
+To retrain AcuTech using your own dataset, first, ensure your dataset is organized and placed appropriately. If your dataset requires normalization, place it in the `dataset_train_unclean` folder and execute the `clean.py` script. Each recording will be automatically split into 3-second segments and appropriately named for further processing. Alternatively, if your dataset is already normalized, place it in the dataset_train_clean folder.
+
+It is essential to maintain accurate labeling for each recording, as this information is critical for model training.
+
+Next, update the CSV file containing the filenames of the recordings and their respective labels to reflect any changes or additions.
+
+Finally, open the `acs-ccnrf.ipynb` notebook, verify that the file paths are correctly specified in the 'Loading of Dataset & Metadata' cell, and execute all cells in the notebook to initiate the retraining process.
+
+### Note
+
+Please note that the app requires the Anvil client to be running for proper functionality. To use the app, create an Anvil account and name the file 'upload'. Then, copy the client code from 'anvil/client_code.py' and ensure it is executed after pasting.
 
 ## Group Members
 
