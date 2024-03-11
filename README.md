@@ -50,11 +50,9 @@ Next, update the CSV file containing the filenames of the recordings and their r
 
 Finally, open the `acs-ccnrf.ipynb` notebook, verify that the file paths are correctly specified in the 'Loading of Dataset & Metadata' cell, and execute all cells in the notebook to initiate the retraining process.
 
-### Note
-
-The app requires the Anvil client to be running for proper functionality. To use the app, [create an Anvil account](https://anvil.works/sign-up) and name the file 'upload'. Then, copy the client code from `anvil/client_code.py` and ensure it is executed after pasting. 
-
-You will also need to replace the Anvil server uplink key in the 'Anvil Server Connection' cell in `acs-ccnrf.ipynb`. To obtain a server uplink key, click the Uplink button on Anvil and copy the provided server uplink key.
+> Note: The app requires the Anvil client to be running for proper functionality. To use the app, [create an Anvil account](https://anvil.works/sign-up) and name the file 'upload'. Then, copy the client code from `anvil/client_code.py` and ensure it is executed after pasting. 
+>
+> You will also need to replace the Anvil server uplink key in the 'Anvil Server Connection' cell in `acs-ccnrf.ipynb`. To obtain a server uplink key, click the Uplink button on Anvil and copy the provided server uplink key.
 
 ## Group Members
 
