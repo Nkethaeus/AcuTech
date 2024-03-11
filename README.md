@@ -20,7 +20,7 @@ This project focuses on the development of a cough classifier designed to analyz
 - Python for data processing and general implementation
 - TensorFlow & Scikit-learn for building and implementing the CNN-RF and SVM models
 - Anvil for web interface and hosting the web server
-- HTML, CSS for frontend
+- HTML and CSS for front-end development
 
 ## Results
 
