@@ -48,7 +48,9 @@ It is essential to maintain accurate labeling for each recording, as this inform
 
 Next, update the CSV file containing the filenames of the recordings and their respective labels to reflect any changes or additions.
 
-Finally, open the `acs-ccnrf.ipynb` notebook, verify that the file paths are correctly specified in the 'Loading of Dataset & Metadata' cell, and execute all cells in the notebook to initiate the retraining process.\
+Finally, open the `acs-ccnrf.ipynb` notebook, verify that the file paths are correctly specified in the 'Loading of Dataset & Metadata' cell, and execute all cells in the notebook to initiate the retraining process.
+
+<br />
 
 > Note: The app requires the Anvil client to be running for proper functionality. To use the app, [create an Anvil account](https://anvil.works/sign-up) and name the file 'upload'. Then, copy the client code from `anvil/client_code.py` and ensure it is executed after pasting. 
 >
