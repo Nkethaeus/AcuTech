@@ -1,6 +1,6 @@
 # AcuTech
 
-![AcuTech Poster](https://github.com/DecPotein/AcuTech/assets/81295133/99940e23-fd4c-456c-9240-3c73656d2eda)
+![AcuTech Poster](https://github.com/DecPotein/AcuTech/assets/81295133/fe286c0d-d98d-4ec1-afea-c83fb8772321)
 
 AcuTech is an innovative smartphone-based audio classification system designed for the identification and classification of acute coughs using a Convolutional Neural Network (CNN) and a Random Forest Classifier.
 
