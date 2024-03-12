@@ -65,7 +65,7 @@ Finally, open the `acs-ccnrf.ipynb` notebook, verify that the file paths are cor
 
 ## Acknowledgements
 
-We would like to thank Ms. Thonie Fernandez for her guidance and support throughout this project.
+We would like to thank Ms. Flordeliza P. Fernandez for her guidance and support throughout this project.
 
 ---
 
